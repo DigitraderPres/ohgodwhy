@@ -1,0 +1,19 @@
+input {
+	font-size:16pt;
+	text-align:center;
+	border-radius:13px;
+	border-width:0;
+	margin-bottom:22px;
+}
+.button {
+	font-size:13pt;
+	text-align:center;
+	border-radius:13px;
+	border-width:0;
+	margin-bottom:22px;
+	color:white;
+	background-color:black;
+	width:;
+	height:28px;
+
+}

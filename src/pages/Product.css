@@ -1,0 +1,61 @@
+.productImg {
+    object-fit: cover;
+    max-width: 80vw;
+    max-height: 32vh;
+    /* width: 50%; */
+    border-radius: 23px;
+}
+
+.productTitle{
+	color:white;
+	font-weight: 200;
+	margin-top:0em;
+	margin-bottom:0em;
+}
+
+.largeFont{
+	font-size:28pt;
+}
+
+.medlrgFont{
+	font-size:20pt;
+}
+
+.medFont{
+	font-size:12pt;
+}
+
+.enterButton {
+	font-size:13pt;
+	text-align:center;
+	border-radius:13px;
+	border-width:0;
+	margin-bottom:22px;
+	color:white;
+	background-color:green;
+	background-image: linear-gradient(331deg, rgba(255, 0, 0, 1) 37.82%, rgba(0, 0, 0, 1));
+	width:;
+	height:51px;
+	box-shadow: 0px 0px 15px red;
+}
+.enterButton {
+	/* gradient animation */
+	/*background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+	background-image:linear-gradient(-45deg, #ee7752, #e73c7e, #7f0000, #ff0101);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
