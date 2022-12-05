@@ -13,49 +13,49 @@ const theData = [
         name: 'Playstation 5',
         img: './img/ps5.png',
         time: 1669900048334,
-        entries: '2'
+        entries: 20
     },
     {
         key : '2',
         name: 'iPhone XS',
         img: './img/iphone.png',
         time: 1670900048334,
-        entries: '12'
+        entries: 200
     },
     {
         key : '3',
         name: 'Apple realityOS',
         img: './img/realityOS.png',
         time: 1671900048334,
-        entries: '200'
+        entries: 10
     },
     {
         key : '4',
         name: 'Sonos',
         img: './img/sonos.png',
         time: 1672900048334,
-        entries: '15'
+        entries: 500
     },
     {
         key : '5',
         name: 'Fidget Spinner',
         img: './img/fspinner.png',
         time: 1673900048334,
-        entries: '0'
+        entries: 0
     },
     {
         key : '6',
         name: 'iMac 5K',
         img: './img/imac.png',
         time: 166999048334,
-        entries: '155'
+        entries: 150
     },
     {
         key : '7',
         name: 'Apple Watch Ultra',
         img: './img/awatch.png',
         time: 1669999948334,
-        entries: '2000'
+        entries: 200
     },
 ]
 

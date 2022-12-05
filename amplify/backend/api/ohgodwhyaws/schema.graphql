@@ -1,0 +1,6 @@
+type ProductList @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  productName: String
+  productImgPath: String
+  endtimeUnix: Int
+}

@@ -27,7 +27,7 @@ function Nav() {
                 </li>
                 <li>
                   {/* <span id="navBadge"> 420 </span> */}
-                  <Link className="no_highlights" digi-count='420' to="/funds">💎</Link>
+                  <Link className="no_highlights" digi-count='420' id="badge" to="/funds">💎</Link>
                 </li>
                 <li>
                   <Link className="no_highlights" to="/">🍿</Link>

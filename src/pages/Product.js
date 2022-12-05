@@ -3,6 +3,8 @@ import '../App.js'
 import './Product.css'
 import CountdownTimer from '../CountdownTimer';
 
+import ButtonEnter from './buttonEnter'
+
     
 
 function Product(props) {
@@ -17,13 +19,15 @@ function Product(props) {
       <img src={props.img} alt="product" className="productImg"/>
     		<h1 className="productTitle">{props.name}</h1>
         <br/>
-            <span>
-                <button className="enterButton">
-                ENTER
-                </button>
-            </span>
-            <div className='largeFont'>D <span id="entries1">{props.digi}</span></div> 
-            <div className='medFont'>Your Entries </div> 
+            {/* <span> */}
+            {/*     <button className="enterButton"> */}
+            {/*     ENTER */}
+            {/*     </button> */}
+            {/* </span> */}
+            {/* <div className='largeFont'>D <span id="entries1">{props.digi}</span></div>  */}
+            {/* <div className='medFont'>Your Entries </div>  */}
+            <ButtonEnter digi={props.digi} productID={props.name}/>
+
             <div style={{ fontSize : '6pt'}}>DigiTrader</div> 
     		
             <br/><br/>
